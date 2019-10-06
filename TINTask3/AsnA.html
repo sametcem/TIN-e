@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Animals</title>
+	<meta charset="utf-8">
+	<style>
+		#k1 {
+			box-shadow: 5px 5px 2px 2px gray;
+			border-radius: 10px;
+			transform: rotate(5deg);
+			height: 250px;
+		}
+		
+		body>header {
+			text-align: center;
+			flex: 1 100%;
+		}
+		#gallery {
+			display: flex;
+			flex-flow: column wrap;
+		}
+
+		#gallery img {
+			max-width: 400px;
+			max-height: 200px;
+
+		}
+
+		#article img {
+			max-width: 200px;
+			float: left;
+		}
+
+		aside {
+			max-width: 200px;
+			float: right;
+			font-size: 1.4em;
+			color: red;
+			padding: 1em;
+		}
+
+		body {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
+
+		body>footer {
+			text-align: center;
+			flex: 1 100%;
+			order: 3;
+		}
+
+		#article {
+			flex: 1 100%;
+			order: 1;
+		}
+
+		#gallery {
+			flex: 1 100%;
+			order: 2;
+		}
+
+		@media all and (min-width: 800px) {
+			#article {
+				flex: 1 1 0;
+				order: 2;
+				column-width: 300px;
+
+			}
+
+			#gallery {
+				flex: 0 0 auto;
+				order: 1;
+			}
+		
+		
+	</style>
+	
+</head>
+
+<body>
+	<header>
+		<img id="k1" src="img/cat1.jpg">
+		<h1>Pierwszy Kot RP Przemawia</h1>
+	</header>
+		<section id="article">
+		<aside>PKB rosnie</aside>
+		<p>
+			<img src="img/cat5.jpeg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis, neque ac dapibus malesuada, nunc lacus mollis
+        leo, ac auctor dolor lorem sit amet lectus. Suspendisse ipsum tellus, auctor vel felis ac, iaculis rutrum urna. Vivamus
+        et felis purus. Nunc at justo consequgiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ugiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat.</p>
+		<h2 style="column-span: all">Protect the animals!!!!</h2>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis, neque ac dapibus malesuada, nunc lacus mollis
+        leo, ac auctor dolor lorem sit amet lectus. Suspendisse ipsum tellus, auctor vel felis ac, iaculis rutrum urna. Vivamus
+        et felis purus. Nunc at justo consequgiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ugiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat.</p>
+
+		<p>
+			<img src="img/cat4.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis, neque ac dapibus malesuada, nunc lacus mollis
+        leo, ac auctor dolor lorem sit amet lectus. Suspendisse ipsum tellus, auctor vel felis ac, iaculis rutrum urna. Vivamus
+        et felis purus. Nunc at justo consequgiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat.</p>
+		<aside>Kazdy juz mowilem jasne jest wazne</aside>
+		<p>Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ugiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat.</p>
+				
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis, neque ac dapibus malesuada, nunc lacus mollis
+        leo, ac auctor dolor lorem sit amet lectus. Suspendisse ipsum tellus, auctor vel felis ac, iaculis rutrum urna. Vivamus
+        et felis purus. Nunc at justo consequgiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ugiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat.</p>
+			<aside>I staje sie wskazniki...</aside>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis, neque ac dapibus malesuada, nunc lacus mollis
+        leo, ac auctor dolor lorem sit amet lectus. Suspendisse ipsum tellus, auctor vel felis ac, iaculis rutrum urna. Vivamus
+        et felis purus. Nunc at justo consequgiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ugiat vel nisi. Fusce ut leo sed orci imperdiet consequat. Curabitur porttitor enim
+        at lacus bibendum cursus. Aenean tristique quis dolor in consequat. Nullam nibh sem, varius eget elit vitae, tincidunt
+        aliquet nulla. Suspendisse venenatis ullamcorper feugiat. Etiam tellus lacus, posuere et diam non, luctus efficitur
+        lacus. Nam ut porttitor tortor, quis rhoncus magna. Aenegiat vel nisi. Fusce ut leo sed orci imperdiet consequat.
+			</p>
+	</section>
+	
+	<section id="gallery">
+		<figure>
+			<img src="img/cat5.jpeg">
+			<figcaption>Ragdoll</figcaption>
+		</figure>
+		<figure>
+			<img src="img/cat4.png">
+			<figcaption>Birman</figcaption>
+		</figure>
+		<figure>
+			<img src="img/cat7.jpg">
+			<figcaption>Burmilla</figcaption>
+		</figure>
+		<figure>
+			<img src="img/cat6.jpg">
+			<figcaption>Toyger</figcaption>
+		</figure>
+		<figure>
+			<img src="img/cat4.png">
+			<figcaption>Turkish Angora</figcaption>
+		</figure>
+		<figure>
+			<img src="img/cat5.jpeg">
+			<figcaption>Ocicat</figcaption>
+		</figure>
+	</section>
+	
+	<footer>
+		<h1>Wspieraj schroniska dla zwierząt!</h1>
+	</footer>
+</body>
+
+</html>
