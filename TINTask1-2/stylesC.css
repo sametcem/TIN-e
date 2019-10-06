@@ -1,0 +1,19 @@
+h1 {
+	font-style:italic
+}
+
+p {
+    font-family: "Lucida Console", monospace;
+	font-size:20px;
+}
+table, th, td {
+    border: 1px solid #F4ED0D;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: lower-greek;
+}

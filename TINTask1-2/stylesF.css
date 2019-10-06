@@ -1,0 +1,48 @@
+.container{
+    width: 960px;
+    margin: 75px auto 75px auto;
+    border: 3px dashed #000;
+    background: url('oscar.png') no-repeat right center;
+    background-size: 300px;
+	background-color: white;
+    }
+.banner{
+    width: 900px ;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.article{
+width: 90%;
+margin: auto;
+}
+.article .header{
+     background: url('film.png') no-repeat left center;
+     background-size: 25px;
+     border-left: 4px solid green;
+     border-bottom: 1px solid green;
+}
+.article .header h1{
+    margin: 10px 0 0 30px;
+    
+}
+.article .content{
+    width: 91%;
+    background-color: antiquewhite;
+    margin: 10px auto 0 auto;
+    border: 2px dashed #000;
+	padding: 0px 5px 0px 5px;
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+}
+
+p:hover, a:hover {
+  background-color: yellow;
+}
+
+h1:hover {
+ background-color: green;
+}
