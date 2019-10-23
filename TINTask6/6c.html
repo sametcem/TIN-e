@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>6c</title>
+    <script src="6c.js"></script>
+</head>
+
+<body>
+    <form>
+<p>Age:</p>
+<input id="age" placeholder="Age" type="text"/><br>
+<p>Email:</p>
+<input id="text1" placeholder="E-mail Address" type="text"/>
+<p>Password: </p>
+<input type="password" id="myInput" placeholder="Password">
+
+<input type="checkbox" onclick="myFunction()">Show Password <br>
+<br><br>
+<label id="labeltext2" style="color: red; visibility: hidden"></label><br>
+<label id="labeltext3" style="color: red; visibility: hidden"></label><br>
+<label id="labeltext" style="color: red; visibility: hidden"></label><br>
+<br><br>
+<button onclick="validMail(); validAge(); validPass();" type="button">Submit</button>
+    </form>
+</body>
+
+</html>
