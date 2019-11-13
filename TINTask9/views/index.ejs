@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <p>Welcome to
+        <%= title %>
+    </p>
+    <form>
+
+        <input type="number" id="leftOperand" placeholder="left operand">
+        <input type="number" id="rightOperand" placeholder="right operand">
+        <select id=operator>
+            <option value="div">Divide</option>
+            <option value="mul">Multiply</option>
+            <option value="add">Add</option>
+            <option value="sub">Subtract</option>
+        </select>
+
+
+        <input type="submit" id="btnSubmit">
+        <br><br>
+        <label for="result">RESULT: </label>
+        <p class="res" id='result'></p>
+    </form>
+    <script src="/javascripts/9b.js"></script>
+</body>
+
+</html>
