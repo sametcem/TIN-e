@@ -1,0 +1,16 @@
+{
+    "name": "TINTask10",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "keywords": [],
+    "author": "Samet Habiboglu s17181",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    }
+}

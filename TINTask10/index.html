@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="dist/main.js"></script>
+    <title>s17181 / WEBPACK</title>
+
+    <style>
+        .grid-container {
+            padding: 0 20px 0 10px;
+            grid-gap: 10px;
+            display: grid;
+            justify-content: center;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            padding: 30px 20px 20px 20px;
+            text-align: center;
+            color: rgb(172, 25, 25);
+        }
+        
+        body {
+            background-color: rgb(218, 218, 182);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="grid-container">
+        <div>
+            <label for="cels">Celsius: </label>
+            <input type="number" id="celsius" placeholder="°C">
+        </div>
+        <div>
+            <label for="fahr">Fahrenheit: </label>
+            <input type="number" id="fahr" placeholder="°F">
+        </div>
+        <div>
+            <label for="kelvin">Kelvin: </label>
+            <input type="number" id="kelvin" placeholder="°K">
+        </div>
+    </div>
+
+    <h1>Distance Converter</h1>
+    <div class="grid-container">
+        <div>
+            <label for="km">Kilometer: </label>
+            <input type="number" id="km" placeholder="Kilometers">
+        </div>
+        <div>
+            <label for="mile">Mile: </label>
+            <input type="number" id="mile" placeholder="Miles">
+        </div>
+    </div>
+</body>
+
+</html>
